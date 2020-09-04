@@ -1,0 +1,587 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+.full{
+    width: 100%;
+}
+
+.full .full-image{
+    width: 100%;
+    height: 70px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.full .full-image .limage{
+    vertical-align: middle;
+}
+
+.logo-text{
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flow-root;
+}
+
+.open{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    float: left;
+    display: flow-root;
+}
+
+.container .open .open-text{
+    width: 50%;
+    float: left;
+    margin-top: 59px;
+}
+
+.container .open .open-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.container .open .open-text p{
+    color: #4c527d;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.container .open .open-text .btn{
+    background-color: #ed6524;
+    border-radius: 2rem;
+    padding: 0.875rem 2rem;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.container .open .open-text .btn1{
+    background: transparent;
+    border-radius: 2rem;
+    padding: 0.875rem 2rem;
+    margin-right: 10px;
+    font-size: 15px;
+    border: 2px solid #ed6524;
+    color: #ed6524;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.container .open .open-text .btn:focus{
+   outline: none;
+}
+
+.container .open .open-text .btn1:focus{
+    outline: none;
+ }
+
+.container .open .open-text .btn1:hover{
+    background-color: #ed6524;
+    transition: all 0.5s ease-in-out;
+    color: white;
+ }
+
+.container .open .open-text .review{
+    width: 100%;
+    background-color: #f6f8fc;
+    border-left: 4px solid #f5a782;
+    position: relative;
+}
+
+.container .open .open-text .review p{
+    padding: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.container .open .open-text .review .box{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: -13px;
+    background: transparent;
+    left: 4%;
+    transform: rotate(45deg);
+    background-color: #f6f8fc;
+}
+
+.container .open .open-text .user{
+    width: 100%;
+    float: left;
+}
+
+.container .open .open-text .user .pic{
+    width: 10%;
+    float: left;
+}
+
+.container .open .open-text .user .post{
+    width: 90%;
+    float: left;
+}
+
+.container .open .open-text .user .post p{
+    color: rgb(76, 82, 125);
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.container .open .open-image{
+    width: 38%;
+    float: left;
+    position: relative;
+    margin-left: 67px;
+}
+
+.container .open .open-image a{
+    margin-left: 31%;
+    text-decoration: underline;
+}
+.sticker{
+    padding: 5px 1px 0px 1px;
+    top: -24px;
+    right: -16px;
+    background-color: #5cb377;
+    width: 115px;
+    height: 115px;
+    font-size: 1.25rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.sticker h4{
+    color: white;
+    padding: 26px 0px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+.service{
+    width: 100%;
+    display: flow-root;
+    background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+    background-repeat: repeat-x;
+    margin-bottom: 50px;
+}
+
+
+.service .container .header{
+    width: 70%;
+    margin: 0 auto;
+}
+.service .container .header h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 80px 0 30px 0;
+    text-align: center;
+}
+
+.service .container .header p{
+    color: #4c527d;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service .container .show{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.service .container .show .item{
+    width: 30%;
+    float: left;
+    padding: 19px;
+}
+
+.service .container .show .item i{
+    font-size: 40px;
+    margin: 17px;
+    color: #ed6524;
+}
+
+.service .container .show .item h2{
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    color: #1c1e2e;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+}
+
+.service .container .show .item p{
+    font-family: 'Quicksand', sans-serif;
+    color: #4c527d;
+    font-weight: 500;
+}
+
+.service .container .header2{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.service .container .header2 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 80px 0 30px 0;
+    text-align: center;
+}
+
+.feature{
+    width: 67%;
+    margin: 60px auto;
+    display: flow-root;
+}
+
+.feature-left{
+    width: 50%;
+    float: left;
+}
+
+.feature-right{
+    width: 40%;
+    float: right;
+    margin: 10px 0;
+}
+
+.feature-right i{
+    width: 18px;
+    height: 18px;
+    background-color: #7FCDB8;
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.feature-right li{
+    margin-bottom: 22px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #4c527d;
+    font-size: 17px;
+}
+
+.feature-right .btn{
+    margin-left: -20px;
+    margin-top: 30px;
+    background-color: #ed6524;
+    border-radius: 2rem;
+    padding: 0.875rem 2rem;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 35px;
+    outline: none;
+}
+
+.info{
+    float: left;
+    width: 65%;
+    margin: 0 228px;
+}
+
+.info .info-left{
+    width: 5%;
+    float: left;
+    margin-left: 70px;
+}
+
+.info .info-left li{
+    font-size: 1.6em;
+    color: #7FCDB8;
+    margin-bottom: 58px;
+}
+
+.info .info-right{
+    width: 68%;
+    float: left;
+    margin-left: 6px;
+}
+
+.info .info-right h3{
+    font-family: 'Roboto', sans-serif;
+    color: #1c1e2e;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.info .info-right p{
+    color: #4c527d;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 17px;
+}
+
+.container .header3{
+    background: #f6f8fc;
+    width: 65%;
+    margin: 30px auto;
+    text-align: center;
+    display: flow-root;
+}
+
+.container .header3 h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #1c1e2e;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 45px;
+}
+
+.container .header3 p{
+    font-weight: 500;
+    color: #4c527d;
+    margin-bottom: 1rem;
+    line-height: 21.5px;
+}
+
+.container .header3 .type{
+    outline: none;
+    height: 42px;
+    width: 340px;
+    border: 1px solid #ced0e1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2px ;
+    padding-left: 2px;
+}
+
+.container .header3 .type :focus{
+    outline: none;
+}
+
+
+.container .header3 .btn2{
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 45px;
+    margin-left: 3px;
+    background: #ed6524;
+    height: 45px;
+    border-radius: .25rem;
+    padding: 0.875rem 1.5rem;
+    cursor: pointer;
+}
+
+.container .header3 .btn2:focus{
+    outline: none;
+}
+
+
+.container .header4{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .header4 h1{
+    margin-top: 10px;
+    color: #1c1e2e;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.container .header4 p{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: #4c527d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote{
+    width: 1140px;
+    display: flow-root;
+    float: left;
+}
+
+.quote .qbox{
+    padding: 15px 17px 15px 20px;
+    width: 28%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #4c527d;
+    background-color: #f6f8fc;
+    position: relative;
+    margin-right: 23px;
+    margin-bottom: 70px;
+}
+
+.quote .qbox p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.quote .qbox .qb-info{
+    width: 100%;
+    display: flow-root;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.quote .qbox .qb-info .qb-user{
+    width: 13%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 11px;
+}
+
+.quote .qbox .qb-info .qb-det{
+    width: 70%;
+    float: left;
+}
+.quote .qbox .qb-info .qb-det p{
+    font-family: 'Roboto', sans-serif;
+    color: #4c527d;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quote .qbox .qsign{
+    position: absolute;
+    top: -8%;
+    right: 50%;
+    width: 36px;
+    height: 36px;
+    background: #f5a782;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.quote .qbox .qsign a{
+    color: white;
+    font-size: 18px;
+}
+
+.quote .qbox .qsign a i{
+    margin-top: 25%;
+}
+
+
+.container .final{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.btn3{
+    color: white;
+    background: #ed6524;
+    font-weight: 900;
+    padding: 0.875rem 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.btn3:focus{
+    outline: none;
+}
+
+.full2{
+    width: 100%;
+    background: #ed6524;
+}
+
+.lastimg{
+    text-align: center;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.lastimg img{
+    margin: 60px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.lastimg h1{
+    font-size: 2.2rem;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pp1{
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 500;
+}
+
+.lastimg h4{
+    margin-top: 60px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.icon{
+    margin-bottom: 40px;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    line-height: 1.5;
+    color: white;
+}
+
+.icon i{
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,0.1);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.icon i:hover{
+    background-color: rgba(0,0,0,0.2);
+}
